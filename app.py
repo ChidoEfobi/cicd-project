@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello CI/CD World testApril282026_fflowers!"
+    return "Github version check"
 
 if __name__ == '__main__':
     app.run()
