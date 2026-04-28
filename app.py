@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Github version check"
+    return "Github another Post check"
 
 if __name__ == '__main__':
     app.run()
